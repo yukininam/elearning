@@ -4,7 +4,6 @@
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
 # image: docker-image:tag
-image: edgeyusi-elearning
 
 
 pipelines:
@@ -13,4 +12,4 @@ pipelines:
         script:
           - apt-get update
           - apt-get -qq install git-ftp
-          - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://ftp.doodz.io/
+          - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://elearning.doodz.io/

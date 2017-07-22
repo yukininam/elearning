@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+}
+a:hover, a:active, a:visited, a:focus {
+  color: #0669b2;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container-login {
+  min-height: 100vh;
+  display: table;
+}
+.row-login {
+  display: table-cell;
+  vertical-align: middle;
+}
+.eq-col {
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: middle;
+  float: none;
+}
+#elearninglogo {
+ width: 100%;
+ position: absolute;
+ bottom: 8%;
+ width: 43%;
+ left: 28.3%;
+}
+#loginbg {
+  width: 100%;
+}
+#elearninglogo-xs {
+  width: 100%;
+}
+#login-panel-heading {
+  background: #0669b2;
+  font-weight: bold;
+  color: #fff;
+}
+#div-login input {
+  border-radius: 0;
+}
+#div-login input:focus {
+  box-shadow: none;
+  border-color: #0669b2;
+}
+#div-login button {
+  color: #fff;
+  background-color: #3fbcef;
+  border-color: #3fbcef;
+  box-shadow: none;
+  outline: 0;
+}
+#div-login button:hover, #div-login button:focus {
+  transition-duration: 1s;
+  background-color: #0669b2;
+  border-color: #0669b2;
+}
+#div-login .panel-footer {
+  font-size: 13px;
+  height: 40px;
+}
+.footnote {
+  text-align: center;
+  color: #888;
+}

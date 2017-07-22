@@ -1,0 +1,76 @@
+/*intro section style*/
+.intro {
+    background-color: #fff7dc;
+    padding: 65px 15px 10px 0px;
+    color: #000;
+}
+.intro-salutation {
+    margin-top: 8px;
+    font-size: 22px;
+    color: #444;
+}
+.intro-welcome {
+    color: #23438e;
+    font-size: 18px;
+}
+.intro-text {
+    font-size: 15px;
+    color: #555;
+}
+#elogo {
+    max-width: 120px;
+    margin: 0 auto;
+}
+#elearning-hello {
+    background-color: #fff7dc;
+}
+.slick-prev:before, .slick-next:before {
+    color: #ababab;
+}
+.elearning-slider {
+    padding: 0 15px;
+}
+.elearning-slider img {
+    width: 100%;
+}
+.elearning-slider .panel-heading {
+    padding: 0;
+}
+.elearning-slider .elearning-slides {
+    margin: 15px;
+}
+.elearning-slider .slick-prev {
+    left: -10px;
+}
+.elearning-slider .slick-next {
+    right: -10px;
+}
+.elearning-slides {
+    outline: none;
+}
+.elearning-slides .panel {
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+}
+#elearning-my-courses {
+    background: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 15px 0px;
+    font-size: 15px;
+}
+#elearning-my-courses h2 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+/*end of intro section style*/
+
+/*courses section style*/
+.subject-text {
+    font-size: 12px;
+    color: #555;
+}
+.subjects {
+    background-color: #fff;
+    padding-bottom: 20px;
+}

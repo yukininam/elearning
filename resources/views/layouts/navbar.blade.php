@@ -28,7 +28,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                        {{ Auth::user()->firstname }} <img src="images/profile.png" id="profilepic" class="img-circle">
+                        {{ Auth::user()->firstname }} ! <img src="images/profile.png" id="profilepic" class="img-circle">
                         <!-- {{ Auth::user()->firstname }}&nbsp;<b class="caret"></b> -->
                     </a>
                     <ul class="dropdown-menu">
